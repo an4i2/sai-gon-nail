@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SAI GON NAIL – Nagelstudio in Remagen Oberwinter</title>
+  <meta name="description" content="SAI GON NAIL – Ihr Nagelstudio in Remagen Oberwinter. Gelnägel, Nailart, Pedicure und mehr. Termin vereinbaren!">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <a href="#hero" class="logo">SAI GON NAIL</a>
+      <nav class="nav">
+        <a href="#services">Leistungen</a>
+        <a href="#about">Über uns</a>
+        <a href="#contact">Kontakt</a>
+      </nav>
+      <button class="menu-toggle" aria-label="Menü öffnen" aria-expanded="false">
+        <span class="menu-bar"></span>
+        <span class="menu-bar"></span>
+        <span class="menu-bar"></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section id="hero" class="hero">
+      <div class="container">
+        <h1>SAI GON NAIL</h1>
+        <p class="hero-subtitle">Ihr Nagelstudio in Remagen Oberwinter</p>
+        <p class="hero-tagline">Schöne Nägel – gepflegt mit Leidenschaft</p>
+        <a href="#contact" class="btn btn-primary">Termin vereinbaren</a>
+      </div>
+    </section>
+
+    <section class="location">
+      <div class="container">
+        <img src="location.jpg" alt="SAI GON NAIL Nagelstudio in Remagen Oberwinter" loading="lazy">
+      </div>
+    </section>
+
+    <section id="services" class="services">
+      <div class="container">
+        <h2>Unsere Leistungen</h2>
+        <div class="services-grid">
+          <article class="service-card">
+            <div class="service-icon">&#9670;</div>
+            <h3>Gelnägel</h3>
+            <p>Langlebige Gelnägel in verschiedenen Designs und Farben – von klassisch bis modern.</p>
+          </article>
+          <article class="service-card">
+            <div class="service-icon">&#9670;</div>
+            <h3>Nailart</h3>
+            <p>Kreative Naildesigns mit Stamping, Folien, Glitzer und individuellen Motiven.</p>
+          </article>
+          <article class="service-card">
+            <div class="service-icon">&#9670;</div>
+            <h3>Pedicure</h3>
+            <p>Pflegende Pedicure mit Gel und Lack – für perfekte Füße an jedem Tag.</p>
+          </article>
+          <article class="service-card">
+            <div class="service-icon">&#9670;</div>
+            <h3>Nagelverlängerung</h3>
+            <p>Natürlich wirkende Verlängerungen mit Gel oder Acryl – individuell angepasst.</p>
+          </article>
+          <article class="service-card">
+            <div class="service-icon">&#9670;</div>
+            <h3>Reparatur</h3>
+            <p>Wir reparieren abgebrochene oder beschädigte Nägel – ohne lange Wartezeit.</p>
+          </article>
+          <article class="service-card">
+            <div class="service-icon">&#9670;</div>
+            <h3>Entfernung</h3>
+            <p>Gelnägel und schonende Entfernung – schonend für den Naturnagel.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="about">
+      <div class="container">
+        <h2>Über uns</h2>
+        <div class="about-content">
+          <p>Willkommen bei SAI GON NAIL in Remagen Oberwinter. Wir bieten Ihnen eine professionelle und freundliche Nagelpflege in angenehmer Atmosphäre.</p>
+          <p>Bei uns steht Ihre Zufriedenheit im Mittelpunkt. Wir nehmen uns Zeit für jedes Detail, damit Ihre Nägel in Bestform sind – mit hochwertigen Produkten und viel handwerklichem Geschick.</p>
+          <p>Mit gepflegten Nägeln fühlen Sie sich richtig wohl. Qualität ist bei uns nicht verhandelbar.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <div class="container">
+        <h2>Kontakt</h2>
+        <div class="contact-grid">
+          <div class="contact-info">
+            <h3>Kontaktieren Sie uns</h3>
+            <address>
+              <p>Remagen Oberwinter</p>
+              <p>Hauptstraße 1, 53424 Remagen</p>
+            </address>
+            <p class="contact-detail"><strong>Telefon:</strong> <a href="tel:+492641123456">02641 123456</a></p>
+            <p class="contact-detail"><strong>E-Mail:</strong> <a href="mailto:info@sai-gon-nail.de">info@sai-gon-nail.de</a></p>
+            <p class="contact-detail"><strong>Öffnungszeiten:</strong></p>
+            <p>Montag – Freitag: 10:00 – 19:00 Uhr<br>Samstag: 10:00 – 16:00 Uhr</p>
+          </div>
+          <form class="contact-form" id="contactForm" novalidate>
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" required placeholder="Ihr Name">
+            </div>
+            <div class="form-group">
+              <label for="email">E-Mail</label>
+              <input type="email" id="email" name="email" required placeholder="Ihre E-Mail-Adresse">
+            </div>
+            <div class="form-group">
+              <label for="phone">Telefon</label>
+              <input type="tel" id="phone" name="phone" placeholder="Ihre Telefonnummer">
+            </div>
+            <div class="form-group">
+              <label for="service">Gewünschte Leistung</label>
+              <select id="service" name="service">
+                <option value="">Bitte wählen</option>
+                <option value="gelnaegel">Gelnägel</option>
+                <option value="nailart">Nailart</option>
+                <option value="pedicure">Pedicure</option>
+                <option value="verlaengerung">Nagelverlängerung</option>
+                <option value="reparatur">Reparatur</option>
+                <option value="entfernung">Entfernung</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="message">Nachricht</label>
+              <textarea id="message" name="message" rows="4" placeholder="Ihre Nachricht"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Nachricht senden</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2026 SAI GON NAIL. Alle Rechte vorbehalten.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

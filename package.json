@@ -1,0 +1,12 @@
+{
+  "name": "sai-gon-nail",
+  "version": "1.0.0",
+  "description": "Landing page for SAI GON NAIL nail studio in Remgen Oberwinter",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": ["nail-studio", "landing-page", "remgen"],
+  "license": "ISC"
+}
