@@ -3,20 +3,26 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>SAI GON NAIL – Nagelstudio in Remagen Oberwinter</title>
-  <meta name="description" content="SAI GON NAIL – Ihr Nagelstudio in Remagen Oberwinter. Gelnägel, Nailart, Pedicure und mehr. Termin vereinbaren!">
+  <title>SAI GON NAIL – Nagelstudio in Remgen Oberwinter</title>
+  <meta name="description" content="SAI GON NAIL – Ihr Nagelstudio in Remgen Oberwinter. Gelnägel, Nailart, Pedicure und mehr. Termin vereinbaren!">
+  <meta name="keywords" content="Nagelstudio Remgen, Gelnägel Remgen, Nailart Oberwinter, Pedicure Remgen, Nagelverlängerung Oberwinter">
   <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 </head>
 <body>
-  <header class="header">
+  <a href="#main-content" class="skip-link">Zum Hauptinhalt springen</a>
+
+  <header class="header" role="banner">
     <div class="container">
-      <a href="#hero" class="logo">SAI GON NAIL</a>
-      <nav class="nav">
+      <a href="#hero" class="logo" aria-label="SAI GON NAIL Startseite">SAI GON NAIL</a>
+      <nav class="nav" role="navigation" aria-label="Hauptnavigation">
         <a href="#services">Leistungen</a>
+        <a href="#location">Standort</a>
         <a href="#about">Über uns</a>
         <a href="#contact">Kontakt</a>
       </nav>
-      <button class="menu-toggle" aria-label="Menü öffnen" aria-expanded="false">
+      <button class="menu-toggle" aria-label="Menü öffnen" aria-expanded="false" aria-controls="main-nav">
         <span class="menu-bar"></span>
         <span class="menu-bar"></span>
         <span class="menu-bar"></span>
@@ -24,98 +30,111 @@
     </div>
   </header>
 
-  <main>
-    <section id="hero" class="hero">
+  <main id="main-content">
+    <section id="hero" class="hero" aria-labelledby="hero-heading">
+      <div class="hero-overlay"></div>
       <div class="container">
-        <h1>SAI GON NAIL</h1>
-        <p class="hero-subtitle">Ihr Nagelstudio in Remagen Oberwinter</p>
+        <h1 id="hero-heading">SAI GON NAIL</h1>
+        <p class="hero-subtitle">Ihr Nagelstudio in Remgen Oberwinter</p>
         <p class="hero-tagline">Schöne Nägel – gepflegt mit Leidenschaft</p>
-        <a href="#contact" class="btn btn-primary">Termin vereinbaren</a>
+        <a href="#contact" class="btn btn-primary btn-large">Termin vereinbaren</a>
       </div>
     </section>
 
-    <section class="location">
+    <section id="services" class="services" aria-labelledby="services-heading">
       <div class="container">
-        <img src="location.jpg" alt="SAI GON NAIL Nagelstudio in Remagen Oberwinter" loading="lazy">
-      </div>
-    </section>
-
-    <section id="services" class="services">
-      <div class="container">
-        <h2>Unsere Leistungen</h2>
+        <h2 id="services-heading">Unsere Leistungen</h2>
+        <p class="section-lead">Von klassischem Gelnagel bis zur kreativen Nailart – wir bieten alles, damit Sie sich wohlfühlen.</p>
         <div class="services-grid">
-          <article class="service-card">
-            <div class="service-icon">&#9670;</div>
+          <article class="service-card reveal">
+            <div class="service-icon" aria-hidden="true">&#9670;</div>
             <h3>Gelnägel</h3>
-            <p>Langlebige Gelnägel in verschiedenen Designs und Farben – von klassisch bis modern.</p>
+            <p>Stilvolle und langanhaltende Gelnägel, maßgeschneidert in Design und Farbe, für einen Look, der begeistert. Hochwertige Produkte für ein perfektes Ergebnis.</p>
           </article>
-          <article class="service-card">
-            <div class="service-icon">&#9670;</div>
+          <article class="service-card reveal">
+            <div class="service-icon" aria-hidden="true">&#9670;</div>
             <h3>Nailart</h3>
-            <p>Kreative Naildesigns mit Stamping, Folien, Glitzer und individuellen Motiven.</p>
+            <p>Einzigartige und kreative Nailart, die Ihre Persönlichkeit widerspiegelt – mit Stamping, Folien, Glitzer und individuellen Motiven, ganz nach Ihrem Geschmack.</p>
           </article>
-          <article class="service-card">
-            <div class="service-icon">&#9670;</div>
+          <article class="service-card reveal">
+            <div class="service-icon" aria-hidden="true">&#9670;</div>
             <h3>Pedicure</h3>
-            <p>Pflegende Pedicure mit Gel und Lack – für perfekte Füße an jedem Tag.</p>
+            <p>Pflegende Pedicure mit Gel und Lack – für perfekte Füße an jedem Tag. Entspannen und verwöhnen lassen.</p>
           </article>
-          <article class="service-card">
-            <div class="service-icon">&#9670;</div>
+          <article class="service-card reveal">
+            <div class="service-icon" aria-hidden="true">&#9670;</div>
             <h3>Nagelverlängerung</h3>
-            <p>Natürlich wirkende Verlängerungen mit Gel oder Acryl – individuell angepasst.</p>
+            <p>Natürlich wirkende Verlängerungen mit Gel oder Acryl – individuell angepasst an Ihre Wünsche.</p>
           </article>
-          <article class="service-card">
-            <div class="service-icon">&#9670;</div>
+          <article class="service-card reveal">
+            <div class="service-icon" aria-hidden="true">&#9670;</div>
             <h3>Reparatur</h3>
-            <p>Wir reparieren abgebrochene oder beschädigte Nägel – ohne lange Wartezeit.</p>
+            <p>Wir reparieren abgebrochene oder beschädigte Nägel – ohne lange Wartezeit und mit viel Fingerspitzengefühl.</p>
           </article>
-          <article class="service-card">
-            <div class="service-icon">&#9670;</div>
+          <article class="service-card reveal">
+            <div class="service-icon" aria-hidden="true">&#9670;</div>
             <h3>Entfernung</h3>
-            <p>Gelnägel und schonende Entfernung – schonend für den Naturnagel.</p>
+            <p>Gelnägel und schonende Entfernung – schonend für den Naturnagel, damit Ihre Nägel gesund bleiben.</p>
           </article>
         </div>
       </div>
     </section>
 
-    <section id="about" class="about">
+    <section id="location" class="location" aria-labelledby="location-heading">
       <div class="container">
-        <h2>Über uns</h2>
+        <h2 id="location-heading">Unser Standort</h2>
+        <div class="location-image-wrapper reveal">
+          <img src="location.jpg" alt="SAI GON NAIL Nagelstudio in Remgen Oberwinter – Außenansicht" loading="lazy" width="1200" height="630">
+        </div>
+        <p class="location-address">
+          <strong>Adresse:</strong> Hauptstraße 1, 53424 Remgen Oberwinter<br>
+          <strong>Erreichbar:</strong> bequem mit dem Auto oder öffentlichen Verkehrsmitteln
+        </p>
+      </div>
+    </section>
+
+    <section id="about" class="about" aria-labelledby="about-heading">
+      <div class="container">
+        <h2 id="about-heading">Über uns</h2>
         <div class="about-content">
-          <p>Willkommen bei SAI GON NAIL in Remagen Oberwinter. Wir bieten Ihnen eine professionelle und freundliche Nagelpflege in angenehmer Atmosphäre.</p>
+          <p>Willkommen bei SAI GON NAIL in Remgen Oberwinter. Wir bieten Ihnen eine professionelle und freundliche Nagelpflege in angenehmer, einladender Atmosphäre.</p>
           <p>Bei uns steht Ihre Zufriedenheit im Mittelpunkt. Wir nehmen uns Zeit für jedes Detail, damit Ihre Nägel in Bestform sind – mit hochwertigen Produkten und viel handwerklichem Geschick.</p>
-          <p>Mit gepflegten Nägeln fühlen Sie sich richtig wohl. Qualität ist bei uns nicht verhandelbar.</p>
+          <p>Mit gepflegten Nägeln fühlen Sie sich richtig wohl. Qualität ist bei uns nicht verhandelbar – und das spüren Sie bei jedem Besuch.</p>
         </div>
       </div>
     </section>
 
-    <section id="contact" class="contact">
+    <section id="contact" class="contact" aria-labelledby="contact-heading">
       <div class="container">
-        <h2>Kontakt</h2>
+        <h2 id="contact-heading">Kontakt</h2>
         <div class="contact-grid">
           <div class="contact-info">
             <h3>Kontaktieren Sie uns</h3>
             <address>
-              <p>Remagen Oberwinter</p>
-              <p>Hauptstraße 1, 53424 Remagen</p>
+              <p>Remgen Oberwinter</p>
+              <p>Hauptstraße 1, 53424 Remgen</p>
             </address>
             <p class="contact-detail"><strong>Telefon:</strong> <a href="tel:+492641123456">02641 123456</a></p>
             <p class="contact-detail"><strong>E-Mail:</strong> <a href="mailto:info@sai-gon-nail.de">info@sai-gon-nail.de</a></p>
             <p class="contact-detail"><strong>Öffnungszeiten:</strong></p>
             <p>Montag – Freitag: 10:00 – 19:00 Uhr<br>Samstag: 10:00 – 16:00 Uhr</p>
+            <a href="https://wa.me/492641123456" class="btn btn-whatsapp" aria-label="WhatsApp kontaktieren">WhatsApp</a>
           </div>
           <form class="contact-form" id="contactForm" novalidate>
             <div class="form-group">
-              <label for="name">Name</label>
-              <input type="text" id="name" name="name" required placeholder="Ihr Name">
+              <label for="name">Name <span class="required" aria-hidden="true">*</span></label>
+              <input type="text" id="name" name="name" required placeholder="Ihr Name" autocomplete="name">
+              <span class="form-error" role="alert" aria-live="polite"></span>
             </div>
             <div class="form-group">
-              <label for="email">E-Mail</label>
-              <input type="email" id="email" name="email" required placeholder="Ihre E-Mail-Adresse">
+              <label for="email">E-Mail <span class="required" aria-hidden="true">*</span></label>
+              <input type="email" id="email" name="email" required placeholder="Ihre E-Mail-Adresse" autocomplete="email">
+              <span class="form-error" role="alert" aria-live="polite"></span>
             </div>
             <div class="form-group">
               <label for="phone">Telefon</label>
-              <input type="tel" id="phone" name="phone" placeholder="Ihre Telefonnummer">
+              <input type="tel" id="phone" name="phone" placeholder="Ihre Telefonnummer" autocomplete="tel">
+              <span class="form-error" role="alert" aria-live="polite"></span>
             </div>
             <div class="form-group">
               <label for="service">Gewünschte Leistung</label>
@@ -128,10 +147,12 @@
                 <option value="reparatur">Reparatur</option>
                 <option value="entfernung">Entfernung</option>
               </select>
+              <span class="form-error" role="alert" aria-live="polite"></span>
             </div>
             <div class="form-group">
               <label for="message">Nachricht</label>
               <textarea id="message" name="message" rows="4" placeholder="Ihre Nachricht"></textarea>
+              <span class="form-error" role="alert" aria-live="polite"></span>
             </div>
             <button type="submit" class="btn btn-primary">Nachricht senden</button>
           </form>
@@ -140,11 +161,15 @@
     </section>
   </main>
 
-  <footer class="footer">
+  <footer class="footer" role="contentinfo">
     <div class="container">
       <p>&copy; 2026 SAI GON NAIL. Alle Rechte vorbehalten.</p>
     </div>
   </footer>
+
+  <a href="https://wa.me/492641123456" class="whatsapp-fab" aria-label="WhatsApp kontaktieren" target="_blank" rel="noopener noreferrer">
+    <svg viewBox="0 0 24 24" width="28" height="28" fill="white" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+  </a>
 
   <script src="script.js"></script>
 </body>
